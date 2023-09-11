@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDos</title>
+    <link rel="stylesheet" href="ToDo.css">
+</head>
+<body>
+    <input type="checkbox" id="switch" /><label for="switch">toggle</label>
+    <h1>To Do List</h1>
+
+    <form action="" id="add-todos">
+        <label for="create-list">create your list!</label>
+        <input type="text" id="create-list">
+        <button> add to list</button>
+    </form>
+
+   
+    <table id="Todo-list">
+       <tbody id="todoListBody"></tbody>
+
+    </table>
+    <script src="ToDo.js"></script>
+</body>
+</html>
+
+<!--<form action="" id="add-todos">
+   <div id = "list-segment">
+     <label for="create-list">create your list!</label>
+     <input type="text" id="create-list">
+     <p>holds input</p> if needed and cant lock in input till removed
+     <button id="addBtn"> add to list</button>
+     <button id="removeBtn"> remove </button>
+   </div>
+</form>  do this and instead of having a seperate list it just adds
+ another form under each form as the format of a div that locks your input
+  unless you remove it with the removeBtn
